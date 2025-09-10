@@ -1,6 +1,7 @@
 import re
 from english_stopwords import regexps_to_change
 
+
 with open('./hamlet.txt') as f:
     hamlet = f.read()
 
